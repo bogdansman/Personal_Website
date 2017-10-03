@@ -38,6 +38,7 @@ button button:hover{
     text-decoration: none;
 }
 
+/*--------- Navbar start------------*/
 .navbar{
     /*z-index: 100;*/
     /*background: rgba(255, 255, 255, 0);*/
@@ -49,7 +50,7 @@ button button:hover{
 
 /* Links color */
 .navbar-default .navbar-nav>li>a {
-    color: rgba(0, 0, 255, 0.6);
+    color: rgba(0, 0, 255, 0.5);
     font-weight: 500;
 }
 
@@ -79,8 +80,10 @@ button button:hover{
 }
 
  .nav-collapsed{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(red, green, blue, alpha)
 }
+/*--------- Navbar end------------*/
 
 /*------------- Header -------------*/
 
