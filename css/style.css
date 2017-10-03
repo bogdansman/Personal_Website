@@ -96,8 +96,7 @@ button button:hover{
 
 /* First Section Home*/
 
-.bg-image-1{
-    background-image: url("../images/ipad.jpg");
+.vegas{
     background-size: cover;
 }
 
@@ -799,8 +798,7 @@ margin: auto;
         color: rgba(255, 255, 255, 0.8);
     }
 
-    .bg-image-1{
-        background-image: url('../images/entrepreneur-mobil.jpg');
+    .vegas{
         background-size: cover;
     }
 
@@ -832,6 +830,8 @@ margin: auto;
 	opacity: 0.9;
 	background: #fff;
 } /* seteaza cerculetele pe care dam click in carousel */
+
+.vegas
 
 /* Progress Bar */
 /*.progress-bar{

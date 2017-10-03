@@ -11,6 +11,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/vegas.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	
+	
 </head>
 
 <body>
@@ -42,7 +44,7 @@
     </nav>
 
 
-	<section id="home" class="bg-image-1">
+	<section id="home" class="vegas">
 		<section class="opacity-black height-100">
 			<div class="container text-center display-table height-100">
 				<div class="row vertical-align">
@@ -384,11 +386,14 @@
 	</footer>
 	<!-- footer end -->
 
-
+	
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/indexx.js"></script>
 	<script src="js/vegas.min.js"></script>
+	<script src="js/indexx.js"></script>
+	
+	
+	
 
 </body>
 
