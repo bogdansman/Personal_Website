@@ -35,11 +35,13 @@ jQuery('.page-scroll').bind('click', function(e) {
 // Vegas slider
 $(function () {
     $(".vegas").vegas({
-        delay: 7000,
-        timer: false,
+        delay: 5000,
+        timer: true,
         shuffle: true,
         firstTransition: 'fade',
         firstTransitionDuration: 5000,
+        transition: 'blur',
+        transitionDuration: 2000,
         slides: [
             { src: "images/Vegas_Slider_Images/Iphone_Castle.jpg" },
             { src: "images/Vegas_Slider_Images/Iphone_VISA.jpg" },
