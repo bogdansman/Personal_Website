@@ -46,7 +46,11 @@ $(function () {
             { src: "images/Vegas_Slider_Images/Iphone_Castle.jpg" },
             { src: "images/Vegas_Slider_Images/Iphone_VISA.jpg" },
             { src: "images/Vegas_Slider_Images/Man_at_Office.jpg" },
-            { src: "images/Vegas_Slider_Images/Meeting_Coffe.jpg" }
+            { src: "images/Vegas_Slider_Images/Meeting_Coffe.jpg" },
+            { src: "images/Vegas_Slider_Images/Html_code.jpeg" },
+            { src: "images/Vegas_Slider_Images/Laptop_phone.jpeg" },
+            { src: "images/Vegas_Slider_Images/Imac_Ipad.jpeg" },
+            { src: "images/Vegas_Slider_Images/Web_Design.jpeg" }
         ]
     });
 });
