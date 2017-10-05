@@ -8,7 +8,7 @@ Table of content
 5. About Us
 6. Portofolio
 7. Pricing Table
-8. Contact 
+8. Contact
 
 
 
@@ -20,7 +20,7 @@ Table of content
 
 html, body{
     height: 100%;
-    /*overflow-x: hidden; 
+    /*overflow-x: hidden;
     -- bug when trying to use scroll action like scrollTop --
      */
     font-family: 'Poppins', sans-serif;
@@ -133,7 +133,7 @@ button button:hover{
 
 .container-fluid{
     padding-left: 15px;
-    padding-right: 30px;
+    padding-right: -70px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -304,7 +304,7 @@ hr{
     left: 0;
 
     width: 100%;
-    height: 50px; 
+    height: 50px;
 
     -webkit-transition: bottom .3s ease-in-out;
             transition: bottom .3s ease-in-out;
@@ -402,7 +402,7 @@ hr{
     bottom: 0;
 
     -webkit-transition: bottom .3s ease-in-out;
-            transition: bottom .3s ease-in-out;   
+            transition: bottom .3s ease-in-out;
 }
 
 .portofolio-item .portofolio-overlay{
@@ -415,7 +415,7 @@ hr{
     left: 15px;
 
     width: 92.5%;
-    height: 238px; 
+    height: 238px;
 
     -webkit-transition: bottom .3s ease-in-out;
             transition: bottom .3s ease-in-out;
@@ -429,7 +429,7 @@ hr{
 
 /*----------------------- Carousel  -----------------------*/
 
-.carousel-inner > .item > img, 
+.carousel-inner > .item > img,
 .carousel-inner > .item > a > img{
 width: auto; /* use this, or not */
 margin: auto;
@@ -475,7 +475,7 @@ margin: auto;
 {
     display: inline-block;
 
-    margin-top: none; 
+    margin-top: none;
     margin-right: 20px;
 }
 .footer ul.fsocial-link li a
@@ -525,7 +525,7 @@ margin: auto;
 
     list-style: none;
 
-    text-align: center; 
+    text-align: center;
 
     background: #333333;
     box-shadow: 0 0 60px rgba(0, 0, 0, .1);
@@ -571,7 +571,7 @@ margin: auto;
 {
     position: relative;
 
-    padding: 30px; 
+    padding: 30px;
 
     box-shadow: 0 0 60px rgba(0, 0, 0, .1);
 }
@@ -597,7 +597,7 @@ margin: auto;
 
     -webkit-transform: translate(50px, 0) rotateZ(90deg);
         -ms-transform: translate(50px, 0) rotate(90deg);
-            transform: translate(50px, 0) rotateZ(90deg); 
+            transform: translate(50px, 0) rotateZ(90deg);
     -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
             transform-origin: 0 0;
@@ -806,7 +806,7 @@ margin: auto;
         color: rgba(0, 128, 128, 0.7);
         font-weight: 500;
     }
-    
+
 }
 
 .btn .btn-default .visible-xs{
