@@ -1,0 +1,90 @@
+body {
+    padding: 25px;
+    background-color: black;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  }
+  
+  .typed-effect {
+    text-align: center;
+  }
+  
+  .typed-cursor {
+    opacity: 1;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    width: 11px;
+    height: 22px;
+    top: 4.4px;
+    margin-left: 1px;
+    -webkit-animation: blink 1.2s infinite;
+    -moz-animation: blink 1.2s infinite;
+    animation: blink 1.2s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  p {
+    text-align: center;
+  }
+  
+  .resource {
+    color: #227dee;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
