@@ -9,7 +9,7 @@ Table of content
 6. Portofolio
 7. Pricing Table
 8. Contact
-
+9.Animate CSS
 
 
 
@@ -843,3 +843,25 @@ margin: auto;
     color: #222;
     box-shadow: none;
 }*/
+
+/*---------Animate CSS--------------*/
+.animatedTitle{
+    /*for Chrome*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    /*for Firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 2s;
+    -moz-animation-iteration-count: 3;
+}
+
+.animatedFocusLeft .animatedFocusLeftP 
+.animatedFocusRight .animatedFocusRightP{
+    /*for Chrome*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    /*for Firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 2s;
+}

@@ -56,3 +56,28 @@ $(function () {
     });
 });
 
+// Animate CSS
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+        return this;
+    }
+});
+
+// animate title
+$('.animatedTitle').animateCss('pulse');
+
+//animte focus left
+$('.animatedFocusLeft').animateCss('bounceInLeft');
+
+// animte focus left p
+$('.animatedFocusLeftP').animateCss('bounceInRight');
+
+// animate focus right
+$('.animatedFocusRight').animateCss('bounceInRight');
+
+// animate focus right p
+$('.animatedFocusRightP').animateCss('bounceInLeft');

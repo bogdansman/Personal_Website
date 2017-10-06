@@ -50,7 +50,7 @@
 			<div class="container text-center display-table height-100">
 				<div class="row vertical-align">
 					<div class="col-xs-12">
-						<h1 class="font-500-hero">Web Design Services/Building Responsive Websites</h1>
+						<h1 class="font-500-hero animatedTitle">Web Design Services/Building Responsive Websites</h1>
 						<p class="hidden-xs">
                             <a href="#" id="primary" class="btn btn-primary">Contact Us</a>
                         </p>
@@ -71,8 +71,8 @@
 						<div class="media">
 
 							<div class="media-body media-middle">
-								<h3 class="media-heading text-capitalize font-bold font-size-24 animated bounceInLeft">We build your dreams</h3>
-								<p class="media-heading font-size-16 animated bounceInRight">If you have a dream, we will build it.</p>
+								<h3 class="media-heading text-capitalize font-bold font-size-24 animatedFocusLeft">We build your dreams</h3>
+								<p class="media-heading font-size-16 animatedFocusLeftP">If you have a dream, we will build it.</p>
 							</div>
 
 							<div class="media-right media-middle">
@@ -93,8 +93,8 @@
 							</div>
 
 							<div class="media-body media-middle">
-								<h3 class="media-heading text-capitalize font-bold font-size-24 animated bounceInRight">Excellent Code Quality</h3>
-								<p class="media-heading font-size-16 animated bounceInLeft">Our code is minimalistic and well written.</p>
+								<h3 class="media-heading text-capitalize font-bold font-size-24 animatedFocusRight">Excellent Code Quality</h3>
+								<p class="media-heading font-size-16 animatedFocusRightP">Our code is minimalistic and well written.</p>
 							</div>
 						</div>
 					</div>
@@ -176,8 +176,8 @@
     <!-- about us start -->
 	<div class="section-wrapper-2">
 		<section id="about">
-			<h2 class="text-center font-bold-1 pt-100 animated bounceInLeft">About Us</h2>
-			<h3 class="text-center pb-40 typed-strings animated bounceInRight">My name is Mitran Constantin Bogdan and I am an independent passionate web developer.</h3>
+			<h2 class="text-center font-bold-1 pt-100">About Us</h2>
+			<h3 class="text-center pb-40 typed-strings">My name is Mitran Constantin Bogdan and I am an independent passionate web developer.</h3>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8">
