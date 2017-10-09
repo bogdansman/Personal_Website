@@ -32,6 +32,15 @@ jQuery('.page-scroll').bind('click', function(e) {
 });
 
 
+// get browser Firefox
+// function GetBrowser(){
+//     if(navigator.userAgent.indexOf("Firefox") != -1)
+//     {
+//         return navigator();
+//     }
+//     console.log(navigator);
+// }
+
 // Vegas slider
 $(function () {
     $(".vegas").vegas({
@@ -43,15 +52,15 @@ $(function () {
         transition: 'blur',
         transitionDuration: 2000,
         slides: [
-            { src: "images/Vegas_Slider_Images/Iphone_Castle.jpg" },
-            { src: "images/Vegas_Slider_Images/Iphone_VISA.jpg" },
-            { src: "images/Vegas_Slider_Images/Man_at_Office.jpg" },
-            { src: "images/Vegas_Slider_Images/Meeting_Coffe.jpg" },
-            { src: "images/Vegas_Slider_Images/Html_code.jpeg" },
-            { src: "images/Vegas_Slider_Images/Laptop_phone.jpeg" },
-            { src: "images/Vegas_Slider_Images/Imac_Ipad.jpeg" },
-            { src: "images/Vegas_Slider_Images/Web_Design.jpeg" },
-            { src: "images/Vegas_Slider_Images/Work_Group.jpg" }
+            { src: "images/Vegas_Slider_Images/Iphone_Castle.webp" },
+            { src: "images/Vegas_Slider_Images/Iphone_VISA.webp" },
+            { src: "images/Vegas_Slider_Images/Man_at_Office.webp" },
+            { src: "images/Vegas_Slider_Images/Meeting_Coffe.webp" },
+            { src: "images/Vegas_Slider_Images/Html_code.webp" },
+            { src: "images/Vegas_Slider_Images/Laptop_phone.webp" },
+            { src: "images/Vegas_Slider_Images/Imac_Ipad.webp" },
+            { src: "images/Vegas_Slider_Images/Web_Design.webp" },
+            { src: "images/Vegas_Slider_Images/Work_Group.webp" }
         ]
     });
 });

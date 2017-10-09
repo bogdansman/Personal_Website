@@ -813,43 +813,12 @@ margin: auto;
     display: inline;
 }
 
-.owl-wrapper-outer,
-.owl-wrapper, .owl-carousel,
-.slidercontainer,
-.owl-item{
-    height: 100% !important;
-}/* seteaza inaltimea la 100% */
-
-.owl-theme .owl-controls .owl-page span{
-	display: block;
-	width: 15px;
-	height: 15px;
-	border-radius: 100%;
-	margin: 5px 7px;
-	filter: Alpha(Opacity=90);/*IE7 fix*/
-	opacity: 0.9;
-	background: #fff;
-} /* seteaza cerculetele pe care dam click in carousel */
-
-/* Progress Bar */
-/*.progress-bar{
-    font-size: 11px;
-    line-height: 30px;
-    position: relative;
-    overflow: visible;
-    box-sizing: border-box;
-    text-align: left;
-    letter-spacing: 1px;
-    color: #222;
-    box-shadow: none;
-}*/
-
 /*---------Animate CSS--------------*/
 .animatedTitle{
     /*for Chrome*/
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 2s;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: 3;
     /*for Firefox*/
     -moz-animation-duration: 3s;
     -moz-animation-delay: 2s;
