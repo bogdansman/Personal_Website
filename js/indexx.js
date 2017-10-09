@@ -81,3 +81,12 @@ $('.animatedFocusRight').animateCss('bounceInRight');
 
 // animate focus right p
 $('.animatedFocusRightP').animateCss('bounceInLeft');
+
+// animate Focus area
+$('.animatedFocus').animateCss('lightSpeedIn');
+
+// animate focus description
+$('.animatedFocusDesc').animateCss('lightSpeedIn');
+
+// Wow.js for Animated css
+new WOW().init();

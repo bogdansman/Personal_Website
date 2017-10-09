@@ -854,17 +854,16 @@ margin: auto;
     -moz-animation-duration: 3s;
     -moz-animation-delay: 2s;
     -moz-animation-iteration-count: 3;
-    visibility: visible;
 }
 
 .animatedFocusLeft .animatedFocusLeftP 
 .animatedFocusRight .animatedFocusRightP{
     /*for Chrome*/
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 5s;
+    /* -webkit-animation-delay: 5s; */
+    -webkit-animation-iteration-count: inherit;
     /*for Firefox*/
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 5s;
+    /* -moz-animation-delay: 5s; */
     -moz-animation-iteration-count: 2;
-    visibility: visible;
 }
