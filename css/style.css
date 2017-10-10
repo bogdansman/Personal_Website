@@ -10,9 +10,6 @@ Table of content
 7. Pricing Table
 8. Contact
 9.Animate CSS
-
-
-
 ---------------------------------------*/
 
 
@@ -80,7 +77,7 @@ button button:hover{
 }
 
  .nav-collapsed{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
     color: rgba(red, green, blue, alpha)
 }
 /*--------- Navbar end------------*/
@@ -640,11 +637,11 @@ margin: auto;
 }
 
 .bg-yellow{
-    background-color: #FCD000;
+    background-color: rgba(255, 255, 0, 0.9);
 }
 
 .bg-sky-blue{
-    background-color: #007CFB;
+    background-color: rgba(0, 0, 255, 0.8);
 }
 
 .bg-grey{
