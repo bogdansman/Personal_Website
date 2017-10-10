@@ -91,5 +91,38 @@ $('.animatedFocus').animateCss('lightSpeedIn');
 // animate focus description
 $('.animatedFocusDesc').animateCss('lightSpeedIn');
 
+// animate book
+$('.animatedBook').animateCss('bounceInLeft');
+
+// animate service info
+$('.animatedServiceInfo').animateCss('bounceInRight');
+
+// animate service info p
+$('.animatedServiceInfoP').animateCss('bounceInUp');
+
+// animate bike
+$('.animatedBike').animateCss('bounceInDown');
+
+// animate web development
+$('.animatedWebDev').animateCss('bounceInUp');
+
+// animate web dev p
+$('.animatedWebDevP').animateCss('bounceInUp');
+
+// aniamte lifebuoy
+$('.animatedLifeBuoy').animateCss('bounceInRight');
+
+// animate seo
+$('.animatedSeo').animateCss('bounceInLeft');
+
+// animate seo p
+$('.animatedSeoP').animateCss('bounceInUp');
+
+
+
+// animate UI/UX
+$('.animatedUiUx').animateCss('.bounceInRight');
+
+
 // Wow.js for Animated css
 new WOW().init();

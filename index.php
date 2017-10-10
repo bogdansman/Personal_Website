@@ -115,43 +115,43 @@
 					</div>
 					<div class="col-md-4 col-sm-6 pt-100">
 						<div class="service-list text-center margin">
-							<div class="icon">
+							<div class="icon wow animatedBook">
 								<img src="images/open-book.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4>"UI/UX Design"</h4>
+								<h4 class="wow animatedServiceInfo">"UI/UX Design"</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray">Crtical thinking, creative thinking, research/ Convergent thinking, mockups, graphics, layouts.</p>
+								<p class="txt-col-gray wow animatedServiceInfoP">Crtical thinking, creative thinking, research/ Convergent thinking, mockups, graphics, layouts.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6 pt-100">
 						<div class="service-list text-center margin">
-							<div class="icon">
+							<div class="icon wow animatedBike">
 								<img src="images/bicycle.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4>"Web Development"</h4>
+								<h4 class="wow animatedWebDev">"Web Development"</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray">HTML5, CSS3, Javascript, PHP, Bootstrap, Jquery.</p>
+								<p class="txt-col-gray wow animatedWebDevP">HTML5, CSS3, Javascript, PHP, Bootstrap, Jquery.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6 pt-80">
 						<div class="service-list text-center margin">
-							<div class="icon">
+							<div class="icon wow animatedLifeBuoy">
 								<img src="images/lifebuoy.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4>"SEO Optimization"</h4>
+								<h4 class="wow animatedSeo">"SEO Optimization"</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray">Relevancy, the quality of your content, user experience, site speed, cross-device compatibility, internal linking.</p>
+								<p class="txt-col-gray wow animatedSeoP">Relevancy, the quality of your content, user experience, site speed, cross-device compatibility, internal linking.</p>
 							</div>
 						</div>
 					</div>
