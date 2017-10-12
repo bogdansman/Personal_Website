@@ -15,6 +15,16 @@
 	<link rel="stylesheet" href="css/vegas.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108018164-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-108018164-1');
+	</script>
+
 	
 	
 </head>
@@ -53,7 +63,7 @@
 			<div class="container text-center display-table height-100">
 				<div class="row vertical-align">
 					<div class="col-xs-12">
-						<h1 class="font-500-hero wow animatedTitle">Web Design Services/Building Responsive Websites</h1>
+						<h1 class="font-500-hero wow animatedTitle">Web Design Bucharest</h1>
 						<h2 class="font-500-small wow animatedTitle">web design bucharest, presentation websites, SEO optimization, website administration</h2>
 						<p class="hidden-xs">
                             <a href="#" id="primary" class="btn btn-primary">Contact Us</a>
