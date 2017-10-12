@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-	<title>Web Design Services</title>
+	<title>Web Design Services Bucharest, Professional Small Business Web Design Services</title>
+	<meta name="description" content="Web Design Bucharest, Web Design Services, One Page Website cheap. Landing-Page cheap. Wordpress Blog.">
+	<meta name="keywords" content="web design Bucharest, one page website, website optimization, website promotion, freelancer Bucharest">
+	<meta property="og:title" content="Web Design Bucharest. Web Site creation.">
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
