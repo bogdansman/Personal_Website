@@ -75,13 +75,13 @@
 						<div class="media">
 
 							<div class="media-body media-middle">
-								<h3 class="media-heading text-capitalize font-bold font-size-24 wow animatedFocusLeft">We build your dreams</h3>
-								<p class="media-heading font-size-16 wow animatedFocusLeftP">If you have a dream, we will build it.</p>
+								<h3 class="media-heading text-capitalize font-bold font-size-24 wow animatedFocusLeft">Mobile responsive websites</h3>
+								<p class="media-heading font-size-16 wow animatedFocusLeftP">Give your client the beauty of navigation on a friendly site.</p>
 							</div>
 
 							<div class="media-right media-middle">
 								<a href="#">
-		      						<i class="fa fa-laptop fa-3x col-black" style="width: 90px; text-align: center;"></i></a>
+		      						<i class="fa fa-mobile fa-4x col-black" style="width: 90px; text-align: center;"></i></a>
 							</div>
 
 						</div>
@@ -93,12 +93,12 @@
 
 							<div class="media-left media-middle">
 								<a href="#">
-		      						<i class="fa fa-code fa-3x col-white" style="width: 90px; text-align: center;"></i></a>
+		      						<i class="fa fa-desktop fa-3x col-white" style="width: 90px; text-align: center;"></i></a>
 							</div>
 
 							<div class="media-body media-middle">
-								<h3 class="media-heading text-capitalize font-bold font-size-24 wow animatedFocusRight">Excellent Code Quality</h3>
-								<p class="media-heading font-size-16 wow animatedFocusRightP">Our code is minimalistic and well written.</p>
+								<h3 class="media-heading text-capitalize font-bold font-size-24 wow animatedFocusRight">Web Design Responsive</h3>
+								<p class="media-heading font-size-16 wow animatedFocusRightP">Google recommended, website to adapt on any device.</p>
 							</div>
 						</div>
 					</div>
