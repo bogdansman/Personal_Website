@@ -80,7 +80,7 @@
 	<section id="focus">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-6 col-xs-12 bg-yellow col-black pt-47 pb-83">
+				<div class="col-sm-6 col-xs-12 bg-orange col-black pt-47 pb-83">
 					<div class="col-xs-12 text-right one-third-grid">
 						<div class="media">
 
