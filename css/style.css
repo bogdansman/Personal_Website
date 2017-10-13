@@ -652,6 +652,10 @@ margin: auto;
     background-color: #b1ddff;
 }
 
+.bg-orange{
+    background-color: rgb(255, 165, 0);
+}
+
 .col-white{
     color: rgba(255, 255, 255, 0.8);
 }
