@@ -16,16 +16,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108018164-1"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108018164-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'UA-108018164-1');
-	</script>
-
-	
+	</script> -->
 	
 </head>
 
@@ -122,7 +120,7 @@
 	<div class="section-wrapper bg-grey">
 		<section id="section-gap">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row justify-content-md-center">
 					<div class="section-title text-center">
 						<h2 class="wow animatedFocus"><strong>THE SERVICES WE</strong> OFFER</h2>
 						<hr class="hr wow animatedFocusDesc">
@@ -156,7 +154,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3 pt-80">
+					<div class="col-sm-3 pt-100">
 						<div class="service-list text-center margin">
 							<div class="icon wow animatedLifeBuoy">
 								<img src="images/lifebuoy.png" alt="">
@@ -170,7 +168,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-3 pt-80">
+					<div class="col-sm-3 pt-100">
 						<div class="service-list text-center margin">
 							<div class="icon wow animatedLifeBuoy">
 								<i class="fa fa-files-o fa-4x"></i>
@@ -195,7 +193,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="quote">
-						<h3>Thousand of customers are happy to our services. We always care about our customer concern.</h3>
+						<h3 class="wow animatedSeo">Thousand of customers are happy to our services. We always care about our customer concern.</h3>
 					</div>
 				</div>
 			</div>
@@ -205,7 +203,7 @@
     <!-- about us start -->
 	<div class="section-wrapper-2">
 		<section id="about">
-			<h2 class="text-center font-bold-1 pt-100">About Us</h2>
+			<h2 class="text-center font-bold-1 pt-100 wow animatedSeo">About Us</h2>
 			<h3 class="text-center pb-40 typed-strings">My name is Mitran Constantin Bogdan and I am an independent passionate web developer.</h3>
 			<div class="container">
 				<div class="row">
