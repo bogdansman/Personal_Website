@@ -16,16 +16,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108018164-1"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108018164-1"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'UA-108018164-1');
-	</script>
-
-	
+	</script> -->
 	
 </head>
 
@@ -122,50 +120,65 @@
 	<div class="section-wrapper bg-grey">
 		<section id="section-gap">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row justify-content-md-center">
 					<div class="section-title text-center">
-						<h2 class="wow animatedFocus">Business Focus</h2>
+						<h2 class="wow animatedFocus"><strong>THE SERVICES WE</strong> OFFER</h2>
+						<hr class="hr wow animatedFocusDesc">
 						<h3 class="wow animatedFocusDesc">Follow one course until successful.</h3>
 					</div>
-					<div class="col-md-4 col-sm-6 pt-100">
+					<div class="col-sm-3 pt-100">
 						<div class="service-list text-center margin">
 							<div class="icon wow animatedBook">
 								<img src="images/open-book.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4 class="wow animatedServiceInfo">"UI/UX Design"</h4>
+								<h4 class="wow animatedServiceInfo">WEB DESIGN</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray wow animatedServiceInfoP">Crtical thinking, creative thinking, research/ Convergent thinking, mockups, graphics, layouts.</p>
+								<p class="txt-col-gray wow animatedServiceInfoP">The creation of a modern looking website is very important for the potential customers.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 pt-100">
+					<div class="col-sm-3 pt-100">
 						<div class="service-list text-center margin">
 							<div class="icon wow animatedBike">
 								<img src="images/bicycle.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4 class="wow animatedWebDev">"Web Development"</h4>
+								<h4 class="wow animatedWebDev">WEB DEVELOPMENT</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray wow animatedWebDevP">HTML5, CSS3, Javascript, PHP, Bootstrap, Jquery.</p>
+								<p class="txt-col-gray wow animatedWebDevP">I am using the latest technologies for creating your website: HTML5, CSS3, Javascript, PHP, Bootstrap, Jquery.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 pt-80">
+					<div class="col-sm-3 pt-100">
 						<div class="service-list text-center margin">
 							<div class="icon wow animatedLifeBuoy">
 								<img src="images/lifebuoy.png" alt="">
 							</div>
 							<div class="service-info">
-								<h4 class="wow animatedSeo">"SEO Optimization"</h4>
+								<h4 class="wow animatedSeo">SEO OPTIMIZATION</h4>
 								<svg width="50" height="50">
 									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
 								</svg>
-								<p class="txt-col-gray wow animatedSeoP">Relevancy, the quality of your content, user experience, site speed, cross-device compatibility, internal linking.</p>
+								<p class="txt-col-gray wow animatedSeoP">SEO Optimization is going to help your website to be first in Google search, making it very easy to find.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 pt-100">
+						<div class="service-list text-center margin">
+							<div class="icon wow animatedLifeBuoy">
+								<i class="fa fa-files-o fa-4x"></i>
+							</div>
+							<div class="service-info">
+								<h4 class="wow animatedSeo">WEBSITE ADMINISTRATION</h4>
+								<svg width="50" height="50">
+									<line x1="0" y1="0" x2="50" y2="0" stroke="orange" stroke-width="10" />
+								</svg>
+								<p class="txt-col-gray wow animatedSeoP">The Website should be updated on a daily basis. The potential visitors should have a smooth and easy to access content.</p>
 							</div>
 						</div>
 					</div>
@@ -180,7 +193,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="quote">
-						<h3>Thousand of customers are happy to our services. We always care about our customer concern.</h3>
+						<h3 class="wow animatedSeo">Thousand of customers are happy to our services. We always care about our customer concern.</h3>
 					</div>
 				</div>
 			</div>
@@ -190,12 +203,12 @@
     <!-- about us start -->
 	<div class="section-wrapper-2">
 		<section id="about">
-			<h2 class="text-center font-bold-1 pt-100">About Us</h2>
+			<h2 class="text-center font-bold-1 pt-100 wow animatedSeo">About Us</h2>
 			<h3 class="text-center pb-40 typed-strings">My name is Mitran Constantin Bogdan and I am an independent passionate web developer.</h3>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8">
-						<h1 class="font-500">We're developing quality product since 2016</h1>
+						<h1 class="font-500">We're developing quality products since 2016</h1>
 						<p>I am from Bucharest, and develop websites so you or your company can have a bigger impact on the world. I have a 9 year work experince and decided it is time to make a change so I graduated the course "Web Design" from digitalskills.ro. I develop websites that are mobile first, and use the newest technologies.</p>
 						<p>I am very passionate, efficient, energetic, self-confident, strong-willed and belive that if you have a dream have the courage to pursue it.</p>
 						<p style="font-style: italic;">"Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma — which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary." <br><br>- Steve Jobs		

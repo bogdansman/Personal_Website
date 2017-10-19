@@ -2,33 +2,33 @@
 // daca este mai mare de 768 se adauga clasa nav-collapsed doar la scroll
 // daca este mai mica de 768px, se adauga clasa nav-collapsed automat
 var width = $(window).width();
-if(width > 768){
+if (width > 768) {
 
-// adauga background-ul negru cand dam scrol mai mult de 50 px
-jQuery(window).scroll(function() {
-    if (jQuery(".navbar").offset().top > 150) {
-        jQuery(".navbar-fixed-top").addClass("nav-collapsed");
-        } 
-    else{
-        jQuery(".navbar-fixed-top").removeClass("nav-collapsed");
+    // adauga background-ul negru cand dam scrol mai mult de 50 px
+    jQuery(window).scroll(function () {
+        if (jQuery(".navbar").offset().top > 150) {
+            jQuery(".navbar-fixed-top").addClass("nav-collapsed");
         }
-});
-}else{
-   jQuery(".navbar-fixed-top").addClass("nav-collapsed");
+        else {
+            jQuery(".navbar-fixed-top").removeClass("nav-collapsed");
+        }
+    });
+} else {
+    jQuery(".navbar-fixed-top").addClass("nav-collapsed");
 }
 
 
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
+$('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () {
     $('.navbar-toggle:visible').click();
 });
 
 
 // scroll animat
-jQuery('.page-scroll').bind('click', function(e) {
-            e.preventDefault();
-            jQuery('html,body').animate({scrollTop: jQuery(this.hash).offset().top - 100});               
+jQuery('.page-scroll').bind('click', function (e) {
+    e.preventDefault();
+    jQuery('html,body').animate({ scrollTop: jQuery(this.hash).offset().top - 100 });
 });
 
 
@@ -63,65 +63,50 @@ $(function () {
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        this.addClass('animated ' + animationName).one(animationEnd, function() {
+        this.addClass('animated ' + animationName).one(animationEnd, function () {
             $(this).removeClass('animated ' + animationName);
         });
         return this;
     }
 });
 
-// animate title
-$('.animatedTitle').animateCss('pulse');
 
 //animte focus left
 $('.animatedFocusLeft').animateCss('bounceInLeft');
-
 // animte focus left p
 $('.animatedFocusLeftP').animateCss('bounceInRight');
-
 // animate focus right
 $('.animatedFocusRight').animateCss('bounceInRight');
-
 // animate focus right p
 $('.animatedFocusRightP').animateCss('bounceInLeft');
-
 // animate Focus area
 $('.animatedFocus').animateCss('lightSpeedIn');
-
 // animate focus description
 $('.animatedFocusDesc').animateCss('lightSpeedIn');
-
 // animate book
 $('.animatedBook').animateCss('bounceInLeft');
-
 // animate service info
-$('.animatedServiceInfo').animateCss('bounceInRight');
-
+$('.animatedServiceInfo').animateCss('bounceInLeft');
 // animate service info p
-$('.animatedServiceInfoP').animateCss('bounceInUp');
-
+$('.animatedServiceInfoP').animateCss('bounceInLeft');
 // animate bike
-$('.animatedBike').animateCss('bounceInDown');
-
+$('.animatedBike').animateCss('bounceInLeft');
 // animate web development
-$('.animatedWebDev').animateCss('bounceInUp');
-
+$('.animatedWebDev').animateCss('bounceInLeft');
 // animate web dev p
-$('.animatedWebDevP').animateCss('bounceInUp');
-
+$('.animatedWebDevP').animateCss('bounceInLeft');
 // aniamte lifebuoy
 $('.animatedLifeBuoy').animateCss('bounceInRight');
-
 // animate seo
-$('.animatedSeo').animateCss('bounceInLeft');
-
+$('.animatedSeo').animateCss('bounceInRight');
 // animate seo p
-$('.animatedSeoP').animateCss('bounceInUp');
-
-
-
+$('.animatedSeoP').animateCss('bounceInRight');
 // animate UI/UX
 $('.animatedUiUx').animateCss('.bounceInRight');
+// animate cust
+$('.animatedCust').animateCss('.bounceInRight');
+// animate about us
+$('.animatedAbUsTitl').animateCss('.bounceInRight');
 
 
 // Wow.js for Animated css
