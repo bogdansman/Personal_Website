@@ -62,7 +62,7 @@
 				<div class="row vertical-align">
 					<div class="col-xs-12">
 						<h1 class="font-500-hero wow animatedTitle">Web Design Bucharest</h1>
-						<h2 class="font-500-small wow animatedTitle">web design bucharest, presentation websites, SEO optimization, website administration</h2>
+						<h2 class="font-500-small wow animatedTitle animated-Title-h2">web design bucharest, presentation websites, SEO optimization, website administration</h2>
 						<p class="hidden-xs">
                             <a href="#" id="primary" class="btn btn-primary">Contact Us</a>
                         </p>

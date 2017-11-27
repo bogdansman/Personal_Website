@@ -848,3 +848,7 @@ margin: auto;
     /* -moz-animation-delay: 5s; */
     -moz-animation-iteration-count: 2;
 }
+
+.animated-Title-h2{
+    padding-bottom: 20px;
+}
